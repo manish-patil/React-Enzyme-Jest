@@ -27,9 +27,9 @@ export default class Counter extends React.Component<any, any> {
     render() {
         return (
             <div>
-                <div><button onClick={this.subtract}>-</button></div>
+                <div><button id="btnDecrement" onClick={this.subtract}>-</button></div>
                 <div><label>{this.state.result}</label></div>
-                <div><button onClick={this.add}>+</button></div>
+                <div><button id="btnIncrement" onClick={this.add}>+</button></div>
             </div>
         )
     }
