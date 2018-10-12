@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
+import "./index.css";
 import Counter from "./components/Counter";
 
 class Main extends React.Component {
@@ -10,9 +11,7 @@ class Main extends React.Component {
 
     render() {
         return (
-            <div>
-                <Counter />
-            </div>
+            <Counter />
         )
     }
 }
